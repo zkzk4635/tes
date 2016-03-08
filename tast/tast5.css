@@ -1,0 +1,144 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+@media screen and (max-width: 460px){
+    body{
+      font-size: 70%;
+    }
+}
+.content {
+    background-color: white;
+    min-width: 320px;
+    max-width: 1920px;
+    width: 100%;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: #5fc0cd;
+    font-size: 2.25em;
+    color: white;
+    text-align: center;
+    line-height:80px;
+}
+.ti{
+    width: 77%;
+}
+.back{
+    width: 2.78%;
+    height: 35px;
+    float:left;
+    margin-left: 4.2%;
+}
+.backgroud{
+    width: 100%;
+    height: 327px;
+    background:url("photo.jpg")no-repeat;
+    background-size: cover;
+}
+.head{
+      width: 33.2%;
+      height: 327px;
+      background:url("head.png")no-repeat center;
+      background-size: 70%;
+      float: left;
+      }
+.word{
+       width: 100%;
+       height: 100px;
+       padding-top: 114px;
+       color: white;
+       line-height: 2.7em;
+}
+.jineng{
+        width: 100%;
+        height: 99px;
+        border-bottom: solid 1px #e1e5e7;
+        font-size: 2em;
+        line-height: 99px;
+}
+.shu{width: 0.42%;
+    height: 26px;
+    border-right: solid 3px #5fc0cd;
+    margin-top: 36px;
+}
+.kong{
+    height: 99px;
+    width: 8.2%;
+    float: left;
+}
+.zhu span,.year span,.time span,.price span{
+    height: 26px;
+    border-right: solid 1px #e1e5e7;
+    padding: 0 20px 0 0;
+    color: #999999;
+}
+.zhu,.year,.time,.price{
+    width: 95.42%;
+    height: 99px;
+    border-bottom: solid 1px #e1e5e7;
+    font-size: 2em;
+    line-height: 99px;
+    float: right;
+}
+.myself{
+    width: 100%;
+    height: 99px;
+    border-bottom: solid 1px #e1e5e7;
+    float: right;
+    color: #999999;
+}
+.jie{
+    height: 26px;
+    border-right: solid 1px #e1e5e7;
+   padding-right: 25px;
+    font-size: 2em;
+}
+.wuyu {
+    width: 62%;
+    height: 100px;
+    float: left;
+    font-size: 1.75em;
+    color: black;
+    padding-top: 17px;
+    margin-left: 2%;
+}
+.nimei{
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    color: #999999;
+    margin-left: 4%;
+}
+.foot,.foot2{
+    width: 50%;
+    height: 226px;
+    float: left;
+    margin-top: 98px;
+   }
+.liu{width: 86.39%;
+     height: 90px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:solid 2px;
+    color: #5fc0cd;
+    text-align: center;
+    line-height: 90px;
+    font-size: 2.125em;
+    margin-left: 10.28%;
+}
+.dian{width: 86.39%;
+    height: 90px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border:solid 2px;
+    color: white;
+    background-color: #5fc0cd;
+    text-align: center;
+    line-height: 90px;
+    font-size: 2.125em;
+    margin-right: 10.28%;
+}
