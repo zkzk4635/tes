@@ -1,0 +1,117 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+@media screen and (min-width: 480px) and (max-width: 640px){
+    body{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 480px){
+    body{
+        font-size: 50%;
+    }
+}
+.content{
+    background-color: #f0f0f0;
+    min-width: 320px;
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+}
+.head{
+    background-color: #29bde0;
+    height: 90px;
+}
+.head img{
+    margin-left:3.4375%;
+    margin-top: 44px;
+    max-width: 5.3125%;
+}
+.box1{
+    width: 88.75%;
+    height: 116px;
+    border: solid 1px #c9c9c9;
+    background-color: white;
+    margin-top: 26px;
+    font-size: 2.1875em;
+    color:#c9c9c9;
+    text-align: center;
+    line-height: 116px;
+}
+.box1 img {
+    position:relative;
+    left:10.21%;
+    top:5px;
+    max-width: 4.23%;
+}
+.box2{
+    width: 88.75%;
+    height: 776px;
+    border: solid 1px #c9c9c9;
+    background-color: white;
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+.sbox{
+    height: 90px;
+    border-bottom: solid 2px #fdd793;
+    font-size: 2.375em;
+    color: #fbb435;
+    line-height: 90px;
+}
+.sbox1,.sbox2,.sbox3{
+    width: 81%;
+    height: 135px;
+    line-height: 135px;
+    background-color: #69d1e9;
+    font-size: 2em;
+    color: white;
+}
+.content p{
+    font-size: 1.53125em;
+    color: #787878;
+    line-height: 78px;
+}
+.sanjiao {
+    width: 0;
+    height: 0;
+    border-top: 27px solid transparent;
+    border-left: 28px solid #fbb435;
+    border-bottom: 27px solid transparent;
+    float: right;
+    position: absolute;
+    top: 49%;
+    left: 93%;
+}
+.abc {
+    font-size: 1.53125em;
+    color: #787878;
+    margin-top: 28px;
+}
+.box{
+    width: 30%;
+    height: 20px;
+    position: absolute;
+}
+.yuan{
+    width: 18px;
+    height: 18px;
+    background: #f0f0f0;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-left: 9px;
+}
+.yuan1{
+    width: 18px;
+    height: 18px;
+    background: #69d1e9;
+    border-radius: 50%;
+    float: left;
+}
+.foot{
+    height: 60px;
+}
