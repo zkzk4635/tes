@@ -1,0 +1,132 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+.content{
+    min-width: 320px;
+    max-width: 1920px;
+    width: 100%;
+}
+@media screen and (min-width: 480px) and (max-width: 640px){
+    body{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 480px){
+    body{
+        font-size: 54%;
+    }
+}
+.head{
+    height: 92px;
+    border-bottom: 1px solid #74d4eb;
+    background-color: #29bde0;
+    font-size: 2.125em;
+    color: white;
+    text-align: center  ;
+    line-height: 92px;
+    position: relative;
+}
+.head img{
+    position: absolute;
+    left: 3.125%;
+    top: 23px;
+    max-width: 7.97%;
+}
+.i{
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    border:solid white;
+    float: right;
+    background: #29bde0;
+    line-height: 40px;
+    position: absolute;
+    top:25%;
+    left:90%;
+}
+.box{
+    height: 620px;
+    background-color: #29bde0;
+    text-align: center;
+    border-bottom: solid 1px #31a8c4;
+}
+.box img{
+    max-width: 54.375%;
+    margin-top: 24px;
+}
+.box p{
+    width:77.6% ;
+    font-size: 2.0625em;
+    color: #ffc865;
+    text-align: left;
+    margin-top: 20px;
+}
+.word{
+    width: 77.6%;
+    font-size: 1.625em;
+    color: white;
+    text-align: left;
+    margin-top: 57px;
+    line-height: 147%;
+}
+.word span{
+    display: block;
+}
+.box2,.box3{
+    height: 164px;
+    border-bottom: solid 1px #dddddd;
+}
+.one{
+    font-size: 1.875em;
+    float: left;
+   padding: 12px 0 0 11.72%;
+}
+.two{
+    font-size: 1.25em;
+    color:#d6d6d6;
+    padding: 20px 0 0 66.41%;
+}
+.three{
+    font-size: 1.625em;
+    color: #bfbfbf;
+    padding: 24px 0 0 11.72%;
+    line-height: 127%;
+}
+.foot{
+    border-top: solid 1px #dddddd;
+    height: 69px;
+    color: #29bde0;
+    position: relative;
+}
+.footone{
+    font-size: 2.4925em;
+    margin : 20px 0 0 4.6875%;
+    float: left;
+}
+.foottwo{
+    font-size: 1.715em;
+    padding: 25px 0 0 71.875%;
+}
+.bbox{
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    top: 984px;;
+}
+.left,.right{
+    width: 50%;
+    height: 130px;
+    background-color: rgba(41,189,224,0.65);
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+.again,.shang{
+    width: 84.375%;
+    height: 86px;
+    border-radius: 10px;
+    background-color: #f66f6f;
+    line-height: 86px;
+    margin-top: 24px;
+}
